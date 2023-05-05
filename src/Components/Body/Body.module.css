@@ -1,0 +1,128 @@
+
+.searchParent{
+    margin: 50px;
+    box-sizing: border-box;
+}
+
+.searchTitle{
+    padding-left: 5px;
+    margin: 4px;
+    color: white;
+    font-weight: normal;
+    font-size: 0.8rem;
+}
+
+.searchText{
+    width: 15%;
+    height: 40px;
+    background-color: #292929;
+    margin: 8px;
+    margin-right: 0;
+    border-radius: 6px 0 0 6px;
+    border-style: none;
+    color: white;
+    padding: 15px;
+    box-sizing: border-box;/*to not add paddings width and height values to textbox width and height and not changing textboxs size by adding padding
+    watch box sizing css video*/
+    outline: none;
+}
+
+.searchText:focus{
+    border-radius: 6px;
+}
+.searchText:focus + .searchBtn>.searchIcon{
+    color: #292929;
+}
+.searchText:focus + .searchBtn{
+    border-radius: 6px;
+    background-color: #ffffff;
+}
+
+.searchBtn{
+    border-style: none;
+    background-color: #292929;
+    border-radius: 0 6px 6px 0;
+    width: 40px;
+    height: 40px;
+    vertical-align: top;
+    margin-top: 8px;
+}
+
+
+.searchIcon{
+    padding-top: 3px;
+    font-size: 1.2rem;
+    color: #A8A8A8;
+}
+
+.headText{
+    color: white;
+    font-size: 19px;
+    width: 14%;
+    font-weight: normal;
+    margin: 50px;
+}
+
+.img{
+    display: inline-block;
+    margin: 8px;
+    margin-top: 43px;
+    background-color: #292929;
+    width: 230px;
+    height: 230px;
+    border-radius: 8px;
+    background-clip: border-box;
+    background-origin: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.reposSection{
+    display: inline-block;
+    width: 70vw;
+    height: 220px;
+    vertical-align: top;
+    margin-top: 43px;
+    margin-left: 55px;
+}
+
+.reposes{
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row wrap;
+    gap: 13px;
+}
+
+.name{
+    margin: 8px;
+    margin-top: 20px;
+    font-size: 15px;
+    color: white;
+    font-weight: normal;
+}
+
+.lists{
+    margin: 8px;
+    margin-top: 0;
+}
+
+ul{
+    box-sizing: border-box;
+    display: inline-block;
+    color: #656565;
+    list-style-type: none;
+    padding: 0;
+    padding-right: 10px;
+    font-size: 13px;
+}
+li{
+    padding: 5px;
+    padding-left: 0;
+}
+.websiteLi{
+    padding: 5px;
+    padding-left: 0;
+    display: list-item;
+}
+
+

@@ -1,0 +1,39 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: #292929;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.479);
+    height: 4.3rem;
+    align-items: center;
+}
+p{
+    margin: 1rem;
+    font-weight: bolder;
+    font-size: 1.7rem;
+}
+
+.icon{
+    margin: 1.5rem;
+    color: white;
+}
+
+.themeBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+    cursor: pointer;
+    width: 3rem;
+    height: 50%;
+    box-shadow: #292929 0 7px 2px, #000 0 8px 6px;
+    transition: 0.08s;
+    background-color: #505050;
+    margin-right: 15px;
+    border-radius: 6px;
+}
+
+button:active {
+    transform: translateY(8px);
+    box-shadow: #292929 0 0 0, #000 0 0 3px;
+}
